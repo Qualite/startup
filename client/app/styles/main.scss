@@ -110,3 +110,52 @@ a {
     max-width: $width;
   }
 }
+
+/* DASHBOARD */
+.dashboard {
+  .container {
+    max-width: $width;
+
+    .thumbnail {
+      .caption {
+        text-align: center;
+      }
+    }
+
+    .project {
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        transition: .3s;
+      }
+    }
+  }
+}
+
+/* COMPANY */
+.company {
+  .container {
+    max-width: $width;
+
+    .thumbnail {
+      .caption {
+        text-align: center;
+      }
+    }
+
+    .stuff {
+      .row {
+        img {
+          max-height: 200px;
+          overflow-y: hidden;
+        }
+      }
+    }
+  }
+}
+
+/* PROJECT */
+.project {
+  .container {
+    max-width: $width;
+  }
+}
