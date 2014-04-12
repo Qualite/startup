@@ -1,0 +1,127 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=640; user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="clientApp">
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-stack-exchange"></i> Taskify</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Вход</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+          <h1>Лучший таск менеджер.</h1>
+          <p>Первый месяц – бесплатно!</p>
+          <p><a class="btn btn-success btn-lg" role="button">Попробуйте <i class="fa fa-chevron-right"></i></a></p>
+        </div>
+    </div>
+
+    <div class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <h3>Свободный аккаунт.</h3>
+            <p>В отличие от наших конкурентов, у нас отсутствует строгая привязка аккаунта к проекту.</p>
+
+            <h3>Гибкие цены.</h3>
+            <p>Вы платите только за то, что вам реально нужно. 30-дневный trial прилагается.</p>
+
+            <h3>Marketplace.</h3>
+            <p>Выбирайте модуль</p>
+
+          </div>
+
+          <div class="col-md-3">
+            <p><img src="images/ipad.png" class="img-responsive"/></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <h3>Отзывы.</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <a href="#">Блог</a>
+             |
+            <a href="#">Контакты</a>
+          </div>
+
+          <div class="col-sm-3">
+            From Syberia with <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" ng-view=""></div>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
