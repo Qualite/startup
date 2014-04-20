@@ -11,6 +11,7 @@ $border: rgba(0, 0, 0, 0.1);
 // endbower
 @import "../bower_components/font-awesome/scss/font-awesome.scss";
 @import "elements.scss";
+@import "company.scss";
 
 a {
   transition: .3s;
